@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Целите в Изкуствения Интелект</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0); /* Transparent */
+            overflow: hidden;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #618edb;
+        }
+
+        .background {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: url('1.jpg') no-repeat center center/cover;
+        }
+        .content {
+            position: absolute;
+            top: 50%;
+            right: 10%;
+            transform: translateY(-50%);
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            text-align: right;
+        }
+
+        .title {
+            font-size: 4rem;
+            font-weight: bold;
+            animation: moveText 3s infinite alternate;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 2rem;
+            margin-top: 10px;
+            font-weight: bold;
+            animation: moveText 3s infinite alternate; /* Added animation */
+        }
+
+        @keyframes moveText {
+            from {
+                transform: translateY(-10px);
+            }
+            to {
+                transform: translateY(10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="Начало.html"_blanк>Начало</a>
+    </div>
+    <div class="background"></div>
+        <div class="content">
+            <div class="title">Целите в Изкуствения Интелект</div>
+            <div class="subtitle">Модерното бъдеще</div>
+        </div>
+    </div>
+</body>
+</html>
